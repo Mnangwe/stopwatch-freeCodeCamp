@@ -1,7 +1,7 @@
 window.onload = function () {
-    var minutes = 00;
-    var seconds = 00;
-    var tens = 00;
+    var minutes = 0;
+    var seconds = 0;
+    var tens = 0;
     
     var appendTens = document.getElementById("tens")
     var appendMinutes = document.getElementById("minutes")
@@ -27,7 +27,7 @@ window.onload = function () {
         minutes = "00";
         appendTens.innerHTML = tens;
         appendSeconds.innerHTML = seconds;
-        appendMinutes.innerHTML = seconds;
+        appendMinutes.innerHTML = minutes;
     }
     function startTimer() {
         tens++;
